@@ -1,0 +1,36 @@
+body{
+  margin:0;
+}
+#snake{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  width:600px;
+  height:600px;
+  border:1px solid #eee;
+}
+#snake .block{
+  width:30px;
+  height:30px;
+  float:left;
+}
+@media (max-width:640px){
+  #snake{
+    width:320px;
+    height:320px;
+  }
+  #snake .block{
+    width:16px;
+    height:16px;
+  }
+}
+
+#snake .snake{
+  background-color:rgb(60, 100, 188) ;
+}
+#snake .food{
+  background-color:rgb(218, 82, 84);
+}
